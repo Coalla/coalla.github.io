@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>App project | List of pages</title>
+    <title>App project | Index</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
@@ -24,8 +24,8 @@
           <div class="header__nav"><a class="header__nav-item" href="#">НАРК</a><a class="header__nav-item" href="#">НСПК</a><a class="header__nav-item" href="#">Документы</a><a class="header__nav-item" href="#">Контакты</a></div>
           <div class="header__search-wrapper"><a class="header__link header__link_search" href="#">Поиск</a>
             <div class="search" id="search">
-              <button class="search__btn" type="submit"></button>
-              <input class="search__input" id="search__input" type="text" placeholder="Введите поисковой запрос"><a class="search__close" href="#"></a>
+              <div class="search__btn"></div>
+              <input class="search__input" id="search__input" type="text" placeholder="Введите поисковой запрос" value=""><a class="search__close" href="#"></a>
               <div class="search__autocomplete">
                 <div class="search__autocomplete-item">
                   <div class="search__autocomplete-text search__autocomplete-text_bold">СПК</div>
@@ -109,7 +109,7 @@
                 </div>
               </div>
             </div>
-          </div><a class="header__link header__link_office" href="#">Мой кабинет</a>
+          </div><a class="header__link header__link_office" href="#">Мой кабинет</a><a class="header__link header__link_exit" href="#"></a>
         </div>
       </div>
       <div class="other-sites">
@@ -143,8 +143,7 @@
                   <div class="other-sites__descr">
                     <div class="other-sites__title">Контакты</div>
                     <div class="other-sites__item">
-                      <div class="other-sites__subtitle">Адрес для корреспонденции:</div>
-                      <div class="other-sites__link other-sites__link_address">109240, Москва, Котельническая набережная д.17<br>(В&nbsp;РСПП для АНО &laquo;НАРК&raquo;)</div>
+                      <div class="other-sites__subtitle">Адрес для корреспонденции:</div><a class="other-sites__link other-sites__link_address" href="https://yandex.ru/maps/-/CGTeZ6NT" target="_blank">109240, Москва, Котельническая набережная д.17<br>(В&nbsp;РСПП для АНО &laquo;НАРК&raquo;)</a>
                     </div>
                     <div class="other-sites__item">
                       <div class="other-sites__subtitle">E-mail:</div><a class="other-sites__link other-sites__link_email" href="mailto:nok-nark@nark.ru">nok-nark@nark.ru</a>
@@ -158,7 +157,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="other-sites__content-item other-sites__content-item_active">
+                <div class="other-sites__content-item">
                   <div class="other-sites__content-item-title">Портал госуслуг</div>
                   <div class="other-sites__content-item-text">Портал откртых данных Российской федерации&nbsp;&mdash; это один из&nbsp;ключевых инструментов реализации государственной политики в&nbsp;области открытых данных, которому отводится роль системообразующего элемента, ядра экосистемы открытых данных Российской Федерации. Портал откртых данных Российской федерации&nbsp;&mdash; это один из&nbsp;ключевых инструментов реализации государственной политики в&nbsp;области открытых данных, которому отводится роль системообразующего элемента, ядра экосистемы открытых данных Российской Федерации. Портал откртых данных Российской федерации&nbsp;&mdash; это один из&nbsp;ключевых инструментов реализации государственной политики в&nbsp;области открытых данных, которому отводится роль системообразующего элемента, ядра экосистемы открытых данных Российской Федерации.</div>
                   <div class="other-sites__descr">
@@ -179,7 +178,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="other-sites__content-item">
+                <div class="other-sites__content-item other-sites__content-item_active">
                   <div class="other-sites__content-item-title">Портал госуслуг 3</div>
                   <div class="other-sites__content-item-text">Портал откртых данных Российской федерации&nbsp;&mdash; это один из&nbsp;ключевых инструментов реализации государственной политики в&nbsp;области открытых данных, которому отводится роль системообразующего элемента, ядра экосистемы открытых данных Российской Федерации</div>
                   <div class="other-sites__descr">
@@ -228,7 +227,202 @@
       </div>
     </header>
     <header class="header-mobile">
-      <div class="container"><a class="header-mobile__logo" href="/"></a></div>
+      <div class="container"><a class="header-mobile__logo" href="/"></a><a class="header-mobile__search" href="#"></a><a class="header-mobile__menu-btn" href="#">
+          <div class="header-mobile__menu-btn-item"></div>
+          <div class="header-mobile__menu-btn-item"></div>
+          <div class="header-mobile__menu-btn-item"></div></a></div>
+      <div class="search-mobile" id="search-mobile">
+        <div class="search-mobile__btn"></div>
+        <input class="search-mobile__input" id="search__input" type="text" placeholder="Введите поисковой запрос" value=""><a class="search-mobile__close" href="#"></a>
+        <div class="search-mobile__autocomplete">
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">в области сварки</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">300</div>
+          </div>
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">в области финансового рынка</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">23</div>
+          </div>
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">в строительстве</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">150</div>
+          </div>
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">в наноиндустрии</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">221</div>
+          </div>
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">в здравоохранении</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">335</div>
+          </div>
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">в области информационных технологий</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">10</div>
+          </div>
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">в сфере гостепреимства</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">279</div>
+          </div>
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">в области сварки</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">300</div>
+          </div>
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">в области финансового рынка</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">23</div>
+          </div>
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">в строительстве</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">150</div>
+          </div>
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">в наноиндустрии</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">221</div>
+          </div>
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">в здравоохранении</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">335</div>
+          </div>
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">в области информационных технологий</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">10</div>
+          </div>
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">в сфере гостепреимства</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">279</div>
+          </div>
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">на железнодорожном транспорте</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">781</div>
+          </div>
+          <div class="search-mobile__autocomplete-item">
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_bold">СПК</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_regular">в лифтовой отрасли, сфере подъемных сооружений и вертикального транспорта</div>
+            <div class="search-mobile__autocomplete-text search-mobile__autocomplete-text_number">605</div>
+          </div>
+        </div>
+      </div>
+      <nav class="nav-mobile">
+        <div class="nav-mobile__list nav-mobile__list_primary">
+          <div class="nav-mobile__item"><a class="nav-mobile__link nav-mobile__link_enter" href="#">Войти</a><a class="nav-mobile__link nav-mobile__link_search" href="#">Поиск</a></div>
+          <div class="nav-mobile__item"><a class="nav-mobile__link" href="#">НСПК</a><a class="nav-mobile__link nav-mobile__link_active" href="#">НАРК</a><a class="nav-mobile__link" href="#">Документы</a><a class="nav-mobile__link" href="#">Контакты</a><a class="nav-mobile__link nav-mobile__link_other-sites" href="#">Другие сайты НОК</a></div>
+        </div>
+        <div class="nav-mobile__list nav-mobile__list_other-sites">
+          <div class="nav-mobile__item"><a class="nav-mobile__link nav-mobile__link_back" href="#">Назад</a></div>
+          <div class="nav-mobile__item">
+            <div class="nav-mobile__list-item">
+              <div class="nav-mobile__list-item-title">Минтруд России</div>
+              <div class="nav-mobile__list-item-content">
+                <div class="nav-mobile__content-item-title">Портал госуслуг 1</div>
+                <div class="nav-mobile__content-item-text">Портал откртых данных Российской федерации&nbsp;&mdash; это один из&nbsp;ключевых инструментов реализации государственной политики в&nbsp;области открытых данных, которому отводится роль системообразующего элемента, ядра экосистемы открытых данных Российской Федерации</div>
+                <div class="nav-mobile__descr">
+                  <div class="nav-mobile__line-title">Контакты</div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">Адрес для корреспонденции:</div><a class="nav-mobile__line-link nav-mobile__line-link_address" href="https://yandex.ru/maps/-/CGTeZ6NT" target="_blank">109240, Москва, Котельническая набережная д.17<br>(В&nbsp;РСПП для АНО &laquo;НАРК&raquo;)</a>
+                  </div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">E-mail:</div><a class="nav-mobile__line-link nav-mobile__line-link_email" href="mailto:nok-nark@nark.ru">nok-nark@nark.ru</a>
+                  </div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">Пресс-служба:</div><a class="nav-mobile__line-link nav-mobile__line-link_email" href="mailto:pr@nark.ru">pr@nark.ru</a>
+                  </div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">Пресс-служба:</div>
+                    <div class="nav-mobile__text-link"><a class="nav-mobile__line-link nav-mobile__line-link_phone" href="tel:+74959661686">+7 (495) 966-16-86</a>&nbsp;&nbsp;(доб. 1019 или 1026)</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nav-mobile__list-item">
+              <div class="nav-mobile__list-item-title">Национальный совет</div>
+              <div class="nav-mobile__list-item-content">
+                <div class="nav-mobile__content-item-title">Портал госуслуг 2</div>
+                <div class="nav-mobile__content-item-text">Портал откртых данных Российской федерации&nbsp;&mdash; это один из&nbsp;ключевых инструментов реализации государственной политики в&nbsp;области открытых данных, которому отводится роль системообразующего элемента, ядра экосистемы открытых данных Российской Федерации</div>
+                <div class="nav-mobile__descr">
+                  <div class="nav-mobile__line-title">Контакты</div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">Адрес для корреспонденции:</div><a class="nav-mobile__line-link nav-mobile__line-link_address" href="https://yandex.ru/maps/-/CGTeZ6NT" target="_blank">109240, Москва, Котельническая набережная д.17<br>(В&nbsp;РСПП для АНО &laquo;НАРК&raquo;)</a>
+                  </div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">E-mail:</div><a class="nav-mobile__line-link nav-mobile__line-link_email" href="mailto:nok-nark@nark.ru">nok-nark@nark.ru</a>
+                  </div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">Пресс-служба:</div><a class="nav-mobile__line-link nav-mobile__line-link_email" href="mailto:pr@nark.ru">pr@nark.ru</a>
+                  </div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">Пресс-служба:</div>
+                    <div class="nav-mobile__text-link"><a class="nav-mobile__line-link nav-mobile__line-link_phone" href="tel:+74959661686">+7 (495) 966-16-86</a>&nbsp;&nbsp;(доб. 1019 или 1026)</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nav-mobile__list-item">
+              <div class="nav-mobile__list-item-title">Реестр</div>
+              <div class="nav-mobile__list-item-content">
+                <div class="nav-mobile__content-item-title">Портал госуслуг 3</div>
+                <div class="nav-mobile__content-item-text">Портал откртых данных Российской федерации&nbsp;&mdash; это один из&nbsp;ключевых инструментов реализации государственной политики в&nbsp;области открытых данных, которому отводится роль системообразующего элемента, ядра экосистемы открытых данных Российской Федерации</div>
+                <div class="nav-mobile__descr">
+                  <div class="nav-mobile__line-title">Контакты</div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">Адрес для корреспонденции:</div><a class="nav-mobile__line-link nav-mobile__line-link_address" href="https://yandex.ru/maps/-/CGTeZ6NT" target="_blank">109240, Москва, Котельническая набережная д.17<br>(В&nbsp;РСПП для АНО &laquo;НАРК&raquo;)</a>
+                  </div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">E-mail:</div><a class="nav-mobile__line-link nav-mobile__line-link_email" href="mailto:nok-nark@nark.ru">nok-nark@nark.ru</a>
+                  </div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">Пресс-служба:</div><a class="nav-mobile__line-link nav-mobile__line-link_email" href="mailto:pr@nark.ru">pr@nark.ru</a>
+                  </div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">Пресс-служба:</div>
+                    <div class="nav-mobile__text-link"><a class="nav-mobile__line-link nav-mobile__line-link_phone" href="tel:+74959661686">+7 (495) 966-16-86</a>&nbsp;&nbsp;(доб. 1019 или 1026)</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nav-mobile__list-item">
+              <div class="nav-mobile__list-item-title">ПМК &laquo;Разработка квалификаций&raquo;</div>
+              <div class="nav-mobile__list-item-content">
+                <div class="nav-mobile__content-item-title">Портал госуслуг 4</div>
+                <div class="nav-mobile__content-item-text">Портал откртых данных Российской федерации&nbsp;&mdash; это один из&nbsp;ключевых инструментов реализации государственной политики в&nbsp;области открытых данных, которому отводится роль системообразующего элемента, ядра экосистемы открытых данных Российской Федерации</div>
+                <div class="nav-mobile__descr">
+                  <div class="nav-mobile__line-title">Контакты</div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">Адрес для корреспонденции:</div><a class="nav-mobile__line-link nav-mobile__line-link_address" href="https://yandex.ru/maps/-/CGTeZ6NT" target="_blank">109240, Москва, Котельническая набережная д.17<br>(В&nbsp;РСПП для АНО &laquo;НАРК&raquo;)</a>
+                  </div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">E-mail:</div><a class="nav-mobile__line-link nav-mobile__line-link_email" href="mailto:nok-nark@nark.ru">nok-nark@nark.ru</a>
+                  </div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">Пресс-служба:</div><a class="nav-mobile__line-link nav-mobile__line-link_email" href="mailto:pr@nark.ru">pr@nark.ru</a>
+                  </div>
+                  <div class="nav-mobile__line-item">
+                    <div class="nav-mobile__subtitle">Пресс-служба:</div>
+                    <div class="nav-mobile__text-link"><a class="nav-mobile__line-link nav-mobile__line-link_phone" href="tel:+74959661686">+7 (495) 966-16-86</a>&nbsp;&nbsp;(доб. 1019 или 1026)</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-mobile__footer">
+          <div class="nav-mobile__footer-list"><a class="nav-mobile__footer-item nav-mobile__footer-item_version" href="#">Версия для слабовидящих</a><a class="nav-mobile__footer-item nav-mobile__footer-item_help" href="#">Справка</a></div>
+        </div>
+      </nav>
     </header>
     <div class="cover">
       <div class="container">
@@ -239,7 +433,7 @@
     <div class="services">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col-lg-4">
             <div class="services__item-wrapper"><a class="services__item services__item_recommendations" href="#">
                 <h2 class="services__title">Советы по&nbsp;профессиональным<br>квалификациям</h2>
                 <div class="services__arrow"></div></a></div>
@@ -247,7 +441,7 @@
                 <h2 class="services__title">Статистика внедрения НОК</h2>
                 <div class="services__arrow"></div></a></div>
           </div>
-          <div class="col">
+          <div class="col-lg-4">
             <div class="services__item-wrapper"><a class="services__item services__item_centers" href="#">
                 <h2 class="services__title">Центры оценки<br>квалификации</h2>
                 <div class="services__arrow"></div></a></div>
@@ -255,7 +449,7 @@
                 <h2 class="services__title">Найти экзаменационную<br>площадку</h2>
                 <div class="services__arrow"></div></a></div>
           </div>
-          <div class="col">
+          <div class="col-lg-4">
             <div class="services__item-wrapper"><a class="services__item services__item_certificates" href="#">
                 <h2 class="services__title">Свидетельства и&nbsp;заключения</h2>
                 <div class="services__arrow"></div></a></div>
@@ -267,7 +461,7 @@
       </div>
       <div class="container _hidden">
         <div class="row">
-          <div class="col">
+          <div class="col-lg-4">
             <div class="services__item-wrapper"><a class="services__item services__item_recommendations" href="#">
                 <h2 class="services__title">Советы по&nbsp;профессиональным<br>квалификациям</h2>
                 <div class="services__arrow"></div></a></div>
@@ -275,7 +469,7 @@
                 <h2 class="services__title">Статистика внедрения НОК</h2>
                 <div class="services__arrow"></div></a></div>
           </div>
-          <div class="col">
+          <div class="col-lg-4">
             <div class="services__item-wrapper"><a class="services__item services__item_centers" href="#">
                 <h2 class="services__title">Центры оценки<br>квалификации</h2>
                 <div class="services__arrow"></div></a></div>
@@ -283,7 +477,7 @@
                 <h2 class="services__title">Найти экзаменационную<br>площадку</h2>
                 <div class="services__arrow"></div></a></div>
           </div>
-          <div class="col">
+          <div class="col-lg-4">
             <div class="services__item-wrapper"><a class="services__item services__item_certificates" href="#">
                 <h2 class="services__title">Свидетельства и&nbsp;заключения</h2>
                 <div class="services__arrow"></div></a></div>
@@ -303,22 +497,22 @@
       <div class="qualifications__item">
         <div class="container">
           <div class="row">
-            <div class="col-7 offset-1">
+            <div class="col-lg-7 offset-1">
               <h2 class="qualifications__title">Подтвердите свою квалификацию</h2>
               <p class="qualifications__text">Пройдите тестирование и&nbsp;получите диплом, подтверждающий<br>квалификационный уровень</p>
             </div>
-            <div class="col-3"><a class="qualifications__btn" href="#">Пройти тестирование</a></div>
+            <div class="col-lg-3"><a class="qualifications__btn" href="#">Пройти тестирование</a></div>
           </div>
         </div>
       </div>
       <div class="qualifications__item">
         <div class="container">
           <div class="row">
-            <div class="col-7 offset-1">
+            <div class="col-lg-7 offset-1">
               <h2 class="qualifications__title">Пройдите независимую оценку квалификаций</h2>
               <p class="qualifications__text">Пройдите тестирование и&nbsp;получите диплом, подтверждающий<br>квалификационный уровень</p>
             </div>
-            <div class="col-3"><a class="qualifications__btn" href="#">Получить оценку</a></div>
+            <div class="col-lg-3"><a class="qualifications__btn" href="#">Получить оценку</a></div>
           </div>
         </div>
       </div>
@@ -326,37 +520,37 @@
     <div class="statistics">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col-2">
             <div class="statistics__item">
               <div class="statistics__item-number">32</div>
               <div class="statistics__item-descr">СПК</div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-2">
             <div class="statistics__item">
               <div class="statistics__item-number">26</div>
               <div class="statistics__item-descr">ЦОК</div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-2">
             <div class="statistics__item">
               <div class="statistics__item-number">475</div>
               <div class="statistics__item-descr">Свидетельств</div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-2">
             <div class="statistics__item">
               <div class="statistics__item-number">58</div>
               <div class="statistics__item-descr">Экзаменационных<br>площадок</div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-2">
             <div class="statistics__item">
               <div class="statistics__item-number">67</div>
               <div class="statistics__item-descr">Регионов</div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-2">
             <div class="statistics__item">
               <div class="statistics__item-number">568</div>
               <div class="statistics__item-descr">Квалификаций</div>
@@ -369,19 +563,18 @@
       <div class="text-info__item text-info__item_white">
         <div class="container">
           <div class="row no-gutters">
-            <div class="col-6">
-              <h2 class="text-info__title">Национальная <br>система квалификаций</h2>
+            <div class="col-lg-6"><a class="text-info__title" href="#">Национальная <br>система квалификаций</a>
               <p class="text-info__text">Введение НСК позволит сформировать производительные силы и&nbsp;производственные отношения, где качества работника определяются его реальной квалификацией, навыками, а&nbsp;существующее положение о&nbsp;ценности работника определяемое по&nbsp;диплому о&nbsp;завершении курса обучения в&nbsp;учебном заведении вытесняется.</p><a class="text-info__link" href="#">Подробнее</a>
             </div>
-            <div class="col-6"><a class="text-info__link-img" href="#"><img class="text-info__img" src="img/text-info/1.png"></a></div>
+            <div class="col-lg-6"><a class="text-info__link-img" href="#"><img class="text-info__img" src="img/text-info/1.png"></a></div>
           </div>
         </div>
       </div>
       <div class="text-info__item text-info__item_blue">
         <div class="container">
           <div class="row no-gutters">
-            <div class="col-6"><a class="text-info__link-img" href="#"><img class="text-info__img" src="img/text-info/2.png"></a></div>
-            <div class="col-6">
+            <div class="col-lg-6"><a class="text-info__link-img" href="#"><img class="text-info__img" src="img/text-info/2.png"></a></div>
+            <div class="col-lg-6">
               <h2 class="text-info__title">Национальное агентство</h2>
               <p class="text-info__text">Введение НСК позволит сформировать производительные силы и&nbsp;производственные отношения, где качества работника определяются его реальной квалификацией, навыками, а&nbsp;существующее положение о&nbsp;ценности работника определяемое по&nbsp;диплому о&nbsp;завершении курса обучения в&nbsp;учебном заведении вытесняется.</p><a class="text-info__link" href="#">Подробнее</a>
             </div>
@@ -391,11 +584,11 @@
       <div class="text-info__item text-info__item_red">
         <div class="container">
           <div class="row no-gutters">
-            <div class="col-6">
+            <div class="col-lg-6">
               <h2 class="text-info__title">Национальный совет</h2>
               <p class="text-info__text">Введение НСК позволит сформировать производительные силы и&nbsp;производственные отношения, где качества работника определяются его реальной квалификацией, навыками, а&nbsp;существующее положение о&nbsp;ценности работника определяемое по&nbsp;диплому о&nbsp;завершении курса обучения в&nbsp;учебном заведении вытесняется.</p><a class="text-info__link" href="#">Подробнее</a>
             </div>
-            <div class="col-6"><a class="text-info__link-img" href="#"><img class="text-info__img" src="img/text-info/3.png"></a></div>
+            <div class="col-lg-6"><a class="text-info__link-img" href="#"><img class="text-info__img" src="img/text-info/3.png"></a></div>
           </div>
         </div>
       </div>
@@ -406,8 +599,7 @@
           <div class="map__title">Контакты</div>
           <div class="map__item">
             <div class="map__col">
-              <div class="map__subtitle">Адрес для корреспонденции: </div>
-              <div class="map__link map__link_address">109240, Москва, Котельническая набережная д.17<br>(В&nbsp;РСПП для АНО &laquo;НАРК&raquo;)</div>
+              <div class="map__subtitle">Адрес для корреспонденции: </div><a class="map__link map__link_address" href="https://yandex.ru/maps/-/CGTeZ6NT" target="_blank">109240, Москва, Котельническая набережная д.17<br>(В&nbsp;РСПП для АНО &laquo;НАРК&raquo;)</a>
             </div>
           </div>
           <div class="map__item">
