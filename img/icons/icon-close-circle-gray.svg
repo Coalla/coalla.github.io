@@ -1,1 +1,12 @@
-<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 10C0 4.47 4.47 0 10 0s10 4.47 10 10-4.47 10-10 10S0 15.53 0 10z" fill="#999EAB"/><path fill="#FFF" d="M13.59 15L15 13.59 11.41 10 15 6.41 13.59 5 10 8.59 6.41 5 5 6.41 8.59 10 5 13.59 6.41 15 10 11.41z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon-close-circle-gray</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-close-circle-gray">
+            <path d="M0,10 C0,4.47 4.47,0 10,0 C15.53,0 20,4.47 20,10 C20,15.53 15.53,20 10,20 C4.47,20 0,15.53 0,10 Z" id="Path" fill="#999EAB"></path>
+            <polygon id="Path" fill="#FFFFFF" points="13.59 15 15 13.59 11.41 10 15 6.41 13.59 5 10 8.59 6.41 5 5 6.41 8.59 10 5 13.59 6.41 15 10 11.41"></polygon>
+        </g>
+    </g>
+</svg>

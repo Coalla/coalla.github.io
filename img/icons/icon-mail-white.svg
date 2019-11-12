@@ -1,1 +1,11 @@
-<svg width="32" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M30 0H2a2 2 0 00-2 2v20a2 2 0 002 2h28a2 2 0 002-2V2a2 2 0 00-2-2zM11.36 14.054l4.644 3.156 4.616-3.178L28.586 22H3.414l7.946-7.946zM2 20.586V7.69l7.676 5.218L2 20.586zm20.294-7.706L30 7.576v13.01l-7.706-7.706zM30 2v3.236l-.042-.06-13.962 9.614L2 5.274V2h28z" fill="#FEFEFE"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon-mail-white</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-mail-white" fill="#FEFEFE" fill-rule="nonzero">
+            <path d="M30,0 L2,0 C0.896,0 0,0.896 0,2 L0,22 C0,23.104 0.896,24 2,24 L30,24 C31.104,24 32,23.104 32,22 L32,2 C32,0.896 31.104,0 30,0 Z M11.36,14.054 L16.004,17.21 L20.62,14.032 L28.586,22 L3.414,22 L11.36,14.054 Z M2,20.586 L2,7.69 L9.676,12.908 L2,20.586 Z M22.294,12.88 L30,7.576 L30,20.586 L22.294,12.88 Z M30,2 L30,5.236 L29.958,5.176 L15.996,14.79 L2,5.274 L2,2 L30,2 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
