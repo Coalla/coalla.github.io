@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon-chart-black</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-chart-black" fill="#2A303E" fill-rule="nonzero">
+            <path d="M8,8 L8,0 C3.6,0 0,3.6 0,8 C0,12.4 3.6,16 8,16 C10.6,16 12.85,14.75 14.35,12.9 L8,8 Z M8,15 C4.15,15 1,11.85 1,8 C1,4.5 3.6,1.55 7,1.05 L7,8 C7,8.3 7.15,8.6 7.4,8.8 L12.9,13.05 C11.55,14.3 9.85,15 8,15 Z" id="Shape"></path>
+            <path d="M10.4004,1.4499 C13.1004,2.3999 15.0004,4.9999 15.0004,7.9999 C15.0004,8.6999 14.9004,9.4499 14.6504,10.0999 L10.3504,6.7999 L10.3504,1.4499 L10.4004,1.4499 Z M9.40039,0.149902 L9.40039,7.2999 L15.1004,11.6999 C15.7004,10.5999 16.0004,9.3499 16.0004,7.9999 C16.0004,4.0499 13.1504,0.799902 9.40039,0.149902 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
