@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Reestr | Analytics</title>
+    <title>Reestr | Conclusion</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
@@ -368,98 +368,120 @@
         </div>
       </nav>
     </header>
-    <div class="analytics">
+    <div class="cabinet">
       <div class="container">
         <div class="row">
           <div class="col-lg-10 offset-1">
-            <h1 class="analytics__title">Аналитика</h1>
+            <div class="cabinet__header">
+              <h1 class="cabinet__title">Е. В. Мигалко</h1>
+              <div class="cabinet__nav"><a class="cabinet__nav-item" href="#">Задачи</a><a class="cabinet__nav-item" href="#">Аналитика</a><a class="cabinet__nav-item" href="#">Изменить НАРК</a><a class="cabinet__nav-item" href="#">Изменить НСПК</a><a class="cabinet__nav-item cabinet__nav-item_active" href="#">Настройки профиля</a></div>
+              <select class="cabinet__nav cabinet__nav_mobile select-default">
+                <option class="cabinet__nav-item cabinet__nav-item_mobile" value="0">Задачи</option>
+                <option class="cabinet__nav-item cabinet__nav-item_mobile" value="1">Аналитика</option>
+                <option class="cabinet__nav-item cabinet__nav-item_mobile" value="2">Изменить НАРК</option>
+                <option class="cabinet__nav-item cabinet__nav-item_mobile" value="3">Изменить НСПК</option>
+                <option class="cabinet__nav-item cabinet__nav-item_mobile" value="4" selected>Настройки профиля</option>
+              </select>
+            </div>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-lg-10 offset-1">
-            <div class="analytics__content">
-              <div class="analytics__row">
-                <div class="analytics__subtitle">Статистика</div>
-                <div class="analytics__list">
-                  <div class="analytics__item">
-                    <div class="analytics__item-title">1. Сводная таблица сведений по мониторингу в сфере независимой оценки квалификации</div>
-                    <div class="analytics__item-content">
-                      <form class="analytics__item-content-form">
-                        <div class="analytics__item-content-row">
-                          <div class="analytics__item-content-text-input-wrapper">
-                            <input class="analytics__content-text-input" type="text" value="" data-toggle="datepicker" placeholder="01.09.19">
-                            <div class="analytics__content-separator">до</div>
-                            <input class="analytics__content-text-input" type="text" value="" data-toggle="datepicker" placeholder="01.10.19">
-                          </div>
-                          <div class="analytics__form-select-wrapper">
-                            <select class="analytics__form-select">
-                              <option class="analytics__form-option" value="0" selected="">Выберите тип данных</option>
-                              <option class="analytics__form-option" value="1">Раз</option>
-                              <option class="analytics__form-option" value="2">Два</option>
-                              <option class="analytics__form-option" value="3">Три</option>
-                              <option class="analytics__form-option" value="4">Четыре</option>
-                            </select>
-                          </div>
-                        </div>
-                        <div class="analytics__item-content-row analytics__item-content-row_space-between"><a class="analytics__item-content-btn" href="#">Показать таблицей</a><a class="analytics__item-content-btn analytics__item-content-btn_blue" href="#">Скачать DOCX</a><a class="analytics__item-content-btn analytics__item-content-btn_green" href="#">Скачать XLS</a></div>
-                      </form>
+            <div class="cabinet__content">
+              <div class="cabinet__content-title">Настройки профиля</div>
+              <div class="cabinet__content-edit">
+                <div class="cabinet__content-edit-text">Услуги национальной&nbsp;<br>системы квалификации</div><a class="cabinet__content-edit-link" href="#">Редактировать профиль</a>
+              </div>
+              <div class="cabinet__form">
+                <div class="cabinet__form-row">
+                  <div class="cabinet__form-col">
+                    <div class="cabinet__form-item">
+                      <div class="cabinet__subtitle">Персональные данные</div>
+                    </div>
+                    <div class="cabinet__form-item">
+                      <label class="cabinet__form-label">ФИО</label>
+                      <input class="cabinet__form-input-text" type="text" placeholder="Мигалко Елена Владимировна" disabled>
+                    </div>
+                    <div class="cabinet__form-item">
+                      <label class="cabinet__form-label">E-mail</label>
+                      <input class="cabinet__form-input-text" type="text" placeholder="migalkoey@gmail.com" disabled>
+                    </div>
+                    <div class="cabinet__form-item">
+                      <label class="cabinet__form-label">Телефон 1</label>
+                      <input class="cabinet__form-input-text" type="text" placeholder="8 (926) 767-64-14">
+                    </div>
+                    <div class="cabinet__form-item">
+                      <label class="cabinet__form-label">Телефон 2</label>
+                      <input class="cabinet__form-input-text cabinet__form-input-text_indent-bottom" type="text" placeholder="+7 (495) 663-04-55">
+                    </div>
+                  </div>
+                  <div class="cabinet__form-col">
+                    <div class="cabinet__form-item">
+                      <div class="cabinet__subtitle">Данные организации</div>
+                    </div>
+                    <div class="cabinet__form-item">
+                      <label class="cabinet__form-label">Название организации</label>
+                      <input class="cabinet__form-input-text" type="text" placeholder="Российский союз промышленников и предпринимат...">
+                    </div>
+                    <div class="cabinet__form-item">
+                      <label class="cabinet__form-label">Аббревиатура</label>
+                      <input class="cabinet__form-input-text" type="text" placeholder="РСПП">
+                    </div>
+                    <div class="cabinet__form-item">
+                      <label class="cabinet__form-label">Должность</label>
+                      <input class="cabinet__form-input-text" type="text" placeholder="Советник">
+                    </div>
+                    <div class="cabinet__form-item">
+                      <label class="cabinet__form-label">Сайт</label>
+                      <input class="cabinet__form-input-text" type="text" placeholder="Введите адрес">
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="analytics__row">
-                <div class="analytics__subtitle">Мониторинг</div>
-                <div class="analytics__list">
-                  <div class="analytics__item analytics__item_active">
-                    <div class="analytics__item-title">1. Сводная таблица сведений по мониторингу в сфере независимой оценки квалификации</div>
-                    <div class="analytics__item-content">
-                      <form class="analytics__item-content-form">
-                        <div class="analytics__item-content-row">
-                          <div class="analytics__item-content-text-input-wrapper">
-                            <input class="analytics__content-text-input" type="text" value="" data-toggle="datepicker" placeholder="01.09.19">
-                            <div class="analytics__content-separator">до</div>
-                            <input class="analytics__content-text-input" type="text" value="" data-toggle="datepicker" placeholder="01.10.19">
-                          </div>
-                          <div class="analytics__form-select-wrapper">
-                            <select class="analytics__form-select">
-                              <option class="analytics__form-option" value="0" selected="">Выберите тип данных</option>
-                              <option class="analytics__form-option" value="1">Раз</option>
-                              <option class="analytics__form-option" value="2">Два</option>
-                              <option class="analytics__form-option" value="3">Три</option>
-                              <option class="analytics__form-option" value="4">Четыре</option>
-                            </select>
-                          </div>
+                <div class="cabinet__form-row cabinet__form-row_no-flex">
+                  <div class="cabinet__form-item"><a class="cabinet__form-btn" href="#">Сохранить</a></div>
+                </div>
+                <div class="cabinet__form-row cabinet__form-row_no-flex">
+                  <div class="cabinet__form-item cabinet__form-item_indent-bottom-56">
+                    <div class="cabinet__subtitle">Доступ к&nbsp;API</div>
+                    <div class="cabinet__links"><a class="cabinet__links-item" href="#">Показать токен</a><a class="cabinet__links-item" href="#">Документация</a></div>
+                  </div>
+                  <div class="cabinet__form-item">
+                    <div class="cabinet__subtitle">Авторизация с&nbsp;помощью электронной подписи</div>
+                  </div>
+                  <div class="cabinet__form-item">
+                    <div class="cabinet__file-wrapper">
+                      <div class="cabinet__file-dropzone">
+                        <div class="cabinet__file-dropzone-title">Личный сертификат</div>
+                        <div class="cabinet__file-dropzone-descr">(перетащите файлы в&nbsp;область или кликните для выбора)</div>
+                      </div>
+                      <div class="cabinet__file-list">
+                        <div class="cabinet__file-list-item cabinet__file-list-item_process">
+                          <div class="cabinet__file-list-item-text">File 1.docx</div>
+                          <div class="cabinet__file-list-item-line"></div>
+                          <div class="cabinet__file-list-item-close"></div>
                         </div>
-                        <div class="analytics__item-content-row analytics__item-content-row_space-between"><a class="analytics__item-content-btn" href="#">Показать таблицей</a><a class="analytics__item-content-btn analytics__item-content-btn_blue" href="#">Скачать DOCX</a><a class="analytics__item-content-btn analytics__item-content-btn_green" href="#">Скачать XLS</a></div>
-                      </form>
+                        <div class="cabinet__file-list-item cabinet__file-list-item_error">
+                          <div class="cabinet__file-list-item-text">File 2.png</div>
+                          <div class="cabinet__file-list-item-line"></div>
+                          <div class="cabinet__file-list-item-close"></div>
+                          <div class="cabinet__file-list-item-reload"></div>
+                        </div>
+                        <div class="cabinet__file-list-item cabinet__file-list-item_success">
+                          <div class="cabinet__file-list-item-text">File 3.jpg</div>
+                          <div class="cabinet__file-list-item-line"></div>
+                          <div class="cabinet__file-list-item-close"></div>
+                        </div>
+                      </div>
+                      <div class="cabinet__btn-mobile">Загрузить файл</div>
                     </div>
                   </div>
-                  <div class="analytics__item">
-                    <div class="analytics__item-title">1. Сводная таблица сведений по мониторингу в сфере независимой оценки квалификации</div>
-                    <div class="analytics__item-content">
-                      <form class="analytics__item-content-form">
-                        <div class="analytics__item-content-row">
-                          <div class="analytics__item-content-text-input-wrapper">
-                            <input class="analytics__content-text-input" type="text" value="" data-toggle="datepicker" placeholder="01.09.19">
-                            <div class="analytics__content-separator">до</div>
-                            <input class="analytics__content-text-input" type="text" value="" data-toggle="datepicker" placeholder="01.10.19">
-                          </div>
-                          <div class="analytics__form-select-wrapper">
-                            <select class="analytics__form-select">
-                              <option class="analytics__form-option" value="0" selected="">Выберите тип данных</option>
-                              <option class="analytics__form-option" value="1">Раз</option>
-                              <option class="analytics__form-option" value="2">Два</option>
-                              <option class="analytics__form-option" value="3">Три</option>
-                              <option class="analytics__form-option" value="4">Четыре</option>
-                            </select>
-                          </div>
-                        </div>
-                        <div class="analytics__item-content-row analytics__item-content-row_space-between"><a class="analytics__item-content-btn" href="#">Показать таблицей</a><a class="analytics__item-content-btn analytics__item-content-btn_blue" href="#">Скачать DOCX</a><a class="analytics__item-content-btn analytics__item-content-btn_green" href="#">Скачать XLS</a></div>
-                      </form>
-                    </div>
+                  <div class="cabinet__form-item cabinet__form-item_indent-bottom-30">
+                    <label class="cabinet__form-label">Пароль клиентского сертификата</label>
+                    <input class="cabinet__form-input-text" type="password" placeholder="" value="11111111111">
                   </div>
+                  <div class="cabinet__form-item"><a class="cabinet__form-btn" href="#">Загрузить</a></div>
                 </div>
               </div>
             </div>
